@@ -1,0 +1,246 @@
+<--------------------------->
+| Java Crash Course Outline |
+<--------------------------->
+
+Schedule: 5 days @ 4 hours each ???
+Dates: ???
+
+Involve Mr. Wuest in planning?
+
+<--------------->
+| Prerequisites |
+<--------------->
+
+- Bring your own laptop (Windows, Mac or Linux) each day of the course
+- You should NOT preload an editor or IDE in preparation, we cannot use it anyway
+- You should have a decent amount of free space (we will occupy ~1GB)
+- Come with a friendly attitude
+- Be ready to learn!
+
+<-------->
+| Topics |
+<-------->
+
+- Day 1 - Intro, Getting Started, and Essentials
+    - Introduction to the course
+        - Time: 15 minutes
+        - Explain that this will be fast-paced and rigorous
+        - You will need help; don't hesitate to ask us!
+        - Topic overview
+        - Expectations
+    - Environment setup
+        - Time: 30 minutes
+        - Install WPILIB, Github Desktop on each machine
+        - Clone the crash course repo, create a new branch for each person (students do)
+    - What is software/programming, and why is it important?
+        - Time: 15 minutes
+        - Software manages literally everything around us
+        - Without software, our devices are just paperweights
+    - Introduction to VSCode
+        - Time: 15 minutes
+        - Purely demonstration, passive activity
+    - Hello World!
+        - Time: 15 minutes
+        - Demonstrate the program, students write themselves
+        - Show how to execute programs locally
+    - Primitive types and System.out.println()
+        - Time: 60 minutes
+        - These 5 are useful: int, long, double, boolean, char
+        - Other 3 mostly unnecessary: short, byte, float
+        - Basic math operations
+            - Add, subtract, multiply
+            - Integer division, modulus
+            - Decimal division
+        - Boolean expressions
+            - ==, !=, >, <, <=, >=, !, &&, ||
+            - Operator precedence
+        - Character escape sequences
+            - \n, \t, \', \", \\
+        - Also: String, but explain later
+            - String concatenation
+    - If-else statements
+        - Time: 30 minutes
+    - While loops
+        - Time: 30 minutes
+    - Practice
+        - Time: 30 minutes
+- Day 2 - Arrays, For Loops, Switch statements, and OOP Structure
+    - Review previous day & overview
+        - Time: 30 minutes
+    - Arrays
+        - Time: 30 minutes
+        - Instantiation (new keyword)
+        - Read and write
+        - Combine with for loops
+    - For-i loops
+        - Time: 30 minutes
+        - Just for-i, not for-each
+    - For-each loops
+        - Time: 30 minutes
+    - Switch statements
+        - Time: 30 minutes
+        - Example: long, dirty if tree
+        - Case, break, default keywords
+    - Class structure
+        - Time: 60 minutes
+        - Methods, constructors, members
+        - Example TBD
+        - Static keyword
+        - Classes have a CAPITAL letter, primitives are lowercase
+            - Example: String
+    - Practice
+        - Time: 30 minutes
+- Day 3 - Inheritance, Access, Imports, and Exceptions, Errors and Debugging
+    - Review previous day & overview
+        - Time: 30 minutes
+    - Class inheritance
+        - Time: 45 minutes
+        - Example TBD
+        - Tree visualization
+        - final, extends, @Override keywords(ish)
+        - Type casting
+    - Access modifiers
+        - Time: 45 minutes
+        - Public, private keywords
+        - Bad to leave things with package access (no keyword)
+        - Table denoting access
+        - Package structure
+    - Imports
+        - Time: 30 minutes
+        - Useful classes: ArrayList, List, Scanner, Arrays, Random, etc.
+        - Reference class
+        - Also: import from a local package
+    - Exceptions and debugging
+        - Time: 60 minutes
+        - In particular: NullPointerException, ArrayIndexOutOfBoundsException
+        - throw, throws keywords
+    - Practice
+        - Time: 30 minutes
+- Day 4 - Strings, Lists, Other Classes, and Real-World Examples
+    - Review previous day and overview
+        - Time: 30 minutes
+    - String class
+        - Time: 30 minutes
+        - Useful methods: length(), charAt(), equals(), indexOf(), substring(), replace(), contains(), split(), toLowerCase(), toUpperCase(), String.format()
+    - ArrayList class, List interface
+        - Time: 30 minutes
+        - Useful methods: size(), add(), get(), set(), remove(), contains(), indexOf(), removeAll(), addAll()
+    - Arrays class
+        - Time: 15 minutes
+        - Useful methods: sort()
+    - Math class
+        - Time: 15 minutes
+        - Useful methods: random(), pow(), sqrt(), round(), abs(), min(), max(), log(), log10(), trig functions
+        - Useful members: PI, E
+    - Random class
+        - Time: 15 minutes
+        - Useful methods: nextInt(), nextLong(), nextDouble(),
+    - Real-world examples
+        - Time: 90 minutes
+        - Example 1: TBD?
+        - Example 2: TBD?
+- Day 5 - Robot Code, Questions and Outro
+    - Review previous day and overview
+        - Time: 30 minutes
+    - Github project protocol
+        - Time: 30 minutes
+        - Discuss branches, merges, commits, descriptions, etc.
+        - Case in point: competition 2022
+    - Setup vendor libraries in WPILIB
+        - Time: 15 minutes
+    - Robot code
+        - Time: 150 minutes
+        - Clone separate repo
+        - ???
+    - Specific questions
+        - Time: 30 minutes
+    - Program conclusion
+        - Time: 15 minutes
+
+<------->
+| Files |
+<------->
+
+Each day in its own package/folder
+
+- General - students don't touch
+    - Formatting profile
+    - Config settings (workspace)
+    - Debug profile (execute current)
+    - GenericTester.java
+- Day 1
+    - HelloWorld.java (100% blank)
+    - PrimitiveTypes.java (main only)
+    - IfElseNotes.java (main only)
+    - WhileLoopNotes.java (main only)
+    - Day1Practice.java (main only)
+- Day 2
+    - Day1Review.java (main only)
+    - ArrayNotes.java (main only)
+    - ForLoopNotes.java (main only)
+    - SwitchStatementNotes.java (main only)
+    - Animal.java (template) (Class Structure)
+    - Day2Practice.java (template)
+- Day 3
+    - Day2Review.java (main only)
+    - Food.java (template)
+    - Inheritance examples (templates)
+    - AccessModifiers.java (template)
+    - ImportNotes.java (blank)
+    - Exceptions.java (main only)
+    - Debugging.java (main only)
+    - Day3Practice.java (template)
+- Day 4
+    - Day3Review.java (template)
+    - StringNotes.java (main only)
+    - ArrayListNotes.java (main only)
+    - ArraysClassNotes.java (main only)
+    - MathNotes.java (main only)
+    - RandomNotes.java (main only)
+    - Real-Word Example Classes TBD? (blank)
+    - Day4Practice.java (template)
+- Day 5
+    - Day4Review.java (template)
+
+<----------------->
+| Reference Sheet |
+<----------------->
+
+- Primitive types
+    - long, int, short, byte
+        - Addition, subtraction, multiplication, DIVISION, MODULUS
+        - Min/max values for each
+    - double, float
+        - Addition, subtraction, multiplication, division
+        - No min, no max (essentially)
+        - Occasional rounding errors
+    - char
+        - Conversion to int
+        - Escape sequences: \n, \t, \', \", \\
+    - boolean
+        - Comparison expressions: ==, <=, >=, <, >, !=
+        - Operators: &&, ||, !
+        - Operator precedence table
+- Strings
+    - IMMUTABLE
+    - Concatenation
+    - Method list: length(), charAt(), equals(), indexOf(), substring(), replace(), contains(), split(), toLowerCase(), toUpperCase(), String.format()
+- If-Else
+- While loops
+- For loops
+    - Incrementing counter
+- For-each loops
+    - Iterate over an Array, List, etc.
+    - DO NOT MODIFY ELEMENTS OR SOURCE (ConcurrentModificationException)
+- Switch statements
+    - Remember to BREAK
+    - Default case
+- Arrays
+    - Arrays.sort()
+- Class Structure
+- Class Inheritance
+- Access & Imports
+- Exceptions & debugging
+- ArrayList, Random, Math Classes
+- Github Protocols
+    - Branches, merging, pull requests, commits, commit names

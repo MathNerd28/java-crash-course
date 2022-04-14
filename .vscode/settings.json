@@ -1,0 +1,50 @@
+{
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "breadcrumbs.enabled": false,
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.detectIndentation": false,
+    "editor.foldingImportsByDefault": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lightbulb.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.showFoldingControls": "always",
+    "editor.wordWrapColumn": 80,
+    "editor.wrappingIndent": "deepIndent",
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/**.class": true,
+        "**/**.ctxt": true,
+        "**/./git": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.gitattributes": true,
+        "**/.gitignore": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/build/": true,
+        ".vscode": true,
+        ".wpilib": true,
+        "buildSrc": true,
+        ".java-format-settings.xml": true
+    },
+    "java.completion.overwrite": false,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.format.settings.url": ".java-format-settings.xml",
+    "java.showBuildStatusOnStart.enabled": false,
+    "java.symbols.includeSourceMethodDeclarations": true,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.tips.enabled": false,
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "bin/main/java",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
